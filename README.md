@@ -2,9 +2,10 @@
 
 一个用于 Cowork 的 OCR 技能，调用硅基流动（SiliconFlow）托管的 [PaddleOCR-VL-1.5](https://github.com/PaddlePaddle/PaddleOCR) 模型进行文字识别和文档解析。纯 Python 标准库实现，无需安装 PaddleOCR 本体。
 
-##自己打的广告
-使用我的链接或邀请码有16元免费额度（Mdcx0NQk）
+## 自己打的广告
+使用我的链接或邀请码注册有16元免费额度（Mdcx0NQk）
 https://cloud.siliconflow.cn/i/Mdcx0NQk
+
 ## 功能特性
 
 - **图片 OCR**：支持 PNG、JPG、WEBP、GIF、BMP、TIFF 格式
