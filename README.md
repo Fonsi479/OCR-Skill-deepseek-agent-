@@ -1,4 +1,4 @@
-# ocr-api — 基于硅基流动 PaddleOCR-VL 的 OCR 技能
+# ocr-api — 基于硅基流动 PaddleOCR-VL-1.5 的 OCR 技能
 
 一个用于 Cowork 的 OCR 技能，调用硅基流动（SiliconFlow）托管的 [PaddleOCR-VL-1.5](https://github.com/PaddlePaddle/PaddleOCR) 模型进行文字识别和文档解析。纯 Python 标准库实现，无需安装 PaddleOCR 本体。
 
@@ -131,7 +131,7 @@ ocr-api-skill/
 1. **扫描件 DPI 建议**：文字为主的文档使用 150-200 DPI 即可；含图表的页面建议 200-300 DPI
 2. **遇到图片超限**：用 `--max-image-mb` 调高上限，或适当降低 `--dpi`
 3. **大型 PDF**：用 `--pages` 分批处理，避免单次调用超时
-4. **表格识别**：PaddleOCR-VL 对简单表格效果较好，密集多列表格建议单独截图
+4. **表格识别**：PaddleOCR-VL-1.5 对简单表格效果较好，密集多列表格建议单独截图
 5. **公式识别**：模型会自动将数学公式转为 LaTeX 格式（如 `\(E=mc^2\)`）
 
 ## 常见问题
@@ -140,7 +140,7 @@ ocr-api-skill/
 检查密钥是否已保存到 `~/Documents/.siliconflow_key`，或是否设置了环境变量 `SILICONFLOW_API_KEY`。
 
 **Q: 提示 403/401 错误？**
-说明 API Key 无效或未开通 PaddleOCR-VL 模型访问权限。请在[硅基流动控制台](https://cloud.siliconflow.cn/account/ak)检查。
+说明 API Key 无效或未开通 PaddleOCR-VL-1.5 模型访问权限。请在[硅基流动控制台](https://cloud.siliconflow.cn/account/ak)检查。
 
 **Q: PDF 识别失败？**
 首先确认 PyMuPDF 已安装：`pip install --break-system-packages PyMuPDF`。如果 PDF 页数过多，建议用 `--pages` 分批处理。
