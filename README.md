@@ -1,4 +1,4 @@
-# ocr-api — 基于硅基流动 PaddleOCR-VL 的 OCR 技能
+# ocr-api — 基于硅基流动 PaddleOCR-VL-1.5 的免费 OCR 技能
 
 一个用于 Cowork 的 OCR 技能，调用硅基流动（SiliconFlow）托管的 [PaddleOCR-VL-1.5](https://github.com/PaddlePaddle/PaddleOCR) 模型进行文字识别和文档解析。PDF 渲染依赖已打包到 skill 内部，使用时不会临时安装依赖。
 
