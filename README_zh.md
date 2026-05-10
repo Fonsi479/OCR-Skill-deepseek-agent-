@@ -14,6 +14,7 @@
 ## 获取免费 API Key
 
 本技能依赖硅基流动的 API，需要先注册账号获取密钥。整个过程免费，无需绑卡。
+使用我的链接或邀请码注册有16元免费额度（Mdcx0NQk） https://cloud.siliconflow.cn/i/Mdcx0NQk
 
 ### 第一步：注册硅基流动账号
 
